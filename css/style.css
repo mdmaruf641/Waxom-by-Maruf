@@ -46,6 +46,21 @@ li {
     width: 100%;
 }
 
+.sticky-bg {
+    height: 100px;
+    background-color: #c7b299c4;
+    animation: sticky 1s;
+}
+
+@keyframes sticky{
+    from{
+        top: -50px;
+    }
+    to{
+        top: 0;
+    }
+}
+
 
 #nav .logo {
     width: 20%;
@@ -53,7 +68,7 @@ li {
 }
 
 #nav .logo img {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 
@@ -66,7 +81,7 @@ li {
 
 #nav .menu ul {
     text-align: end;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 #nav .menu li {
@@ -92,13 +107,14 @@ li {
 
 #nav .last-menu ul {
     text-align: end;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 #nav .last-menu li {
     display: inline-block;
     padding: 0 10px;
     position: relative;
+    cursor: pointer;
 }
 
 #nav .last-menu li a {
@@ -161,7 +177,7 @@ li {
 /* =====BANNER SECTION START===== */
 
 #banner .banner-img {
-    padding: 200px 0;
+    padding: 380px 0;
 }
 
 #banner .banner-text {
@@ -199,7 +215,7 @@ li {
     transition: .3s;
 }
 
-.banner-text a:hover{
+.banner-text a:hover {
     letter-spacing: 3px;
 }
 
@@ -256,6 +272,23 @@ li {
 
 #banner .slick-dots li.slick-active button {
     opacity: 1;
+}
+
+/* BOTTOM TO TOP BUTTON */
+.bottom-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #c7b299;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 54px;
+    z-index: 1;
+    cursor: grab;
 }
 
 /* =====BANNER SECTION END===== */
