@@ -23,6 +23,7 @@ img {
     vertical-align: middle;
 }
 
+
 .clr {
     clear: both;
 }
@@ -52,11 +53,12 @@ li {
     animation: sticky 1s;
 }
 
-@keyframes sticky{
-    from{
+@keyframes sticky {
+    from {
         top: -50px;
     }
-    to{
+
+    to {
         top: 0;
     }
 }
@@ -288,7 +290,138 @@ li {
     text-align: center;
     line-height: 54px;
     z-index: 1;
-    cursor: grab;
+    cursor: pointer;
 }
 
 /* =====BANNER SECTION END===== */
+
+
+/* =====SERVICE SECTION START===== */
+#service {
+    padding: 85px 0;
+}
+
+
+#service .service-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    width: 274px;
+    margin: 0 9px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.service-box:hover a{
+    color: #c7b299;
+}
+
+.service-box:hover h3{
+    color: #c7b299;
+}
+
+.service-box:hover .dvdr{
+    background-color: #c7b299;
+}
+
+.service-box a {
+    color: #555555;
+    font-size: 40px;
+}
+
+.service-box h3 {
+    color: #555555;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.service-box p {
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+
+.dvdr {
+    width: 50px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+/* =====SERVICE SECTION END===== */
+
+
+
+/* =====REALIZE SECTION START===== */
+#realize{
+    padding: 85px 0;
+    background: #fbfaf8;
+}
+
+#realize .realize-heading{
+    text-align: center;
+
+}
+
+#realize .realize-heading h2{
+    font-size: 32px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+#realize .realize-heading p{
+    color: #8c8c8c;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* =====REALIZE SECTION END===== */
+
+/* =====WP THEME LINK SECTION START===== */
+#theme{
+    background-image: linear-gradient(to right,#251d1a, #493125);
+    padding: 30px 0;
+}
+
+#theme .theme-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#theme .theme-content h1{
+    color: #fff;
+    font: 30px;
+}
+
+#theme .theme-content h1 span{
+    color: #c7b299;
+}
+
+#theme .theme-content p{
+    font-size: 18px;
+    color: #615855;
+    padding-top: 5px;
+}
+
+#theme .theme-btn {
+    margin-top: 15px;
+}
+
+#theme .theme-content a {
+    color: #fff;
+    font-size: 20px;
+    background: #998675;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px #736357;
+    display: inline-block;
+}
+
+#theme .theme-content a:hover {
+    background-color: #736357;
+    box-shadow: 0px -3px 0px #998675;
+}
+/* =====WP THEME LINK SECTION END===== */

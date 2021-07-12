@@ -60,5 +60,5 @@ $(function(){
    });
    
 
-
+    // REALIZATION SLIDER //
 });
