@@ -61,4 +61,5 @@ $(function(){
    
 
     // REALIZATION SLIDER //
+    $('.img-area').hiSlide();
 });

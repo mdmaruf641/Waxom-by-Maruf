@@ -314,15 +314,15 @@ li {
     font-size: 14px;
 }
 
-.service-box:hover a{
+.service-box:hover a {
     color: #c7b299;
 }
 
-.service-box:hover h3{
+.service-box:hover h3 {
     color: #c7b299;
 }
 
-.service-box:hover .dvdr{
+.service-box:hover .dvdr {
     background-color: #c7b299;
 }
 
@@ -356,51 +356,52 @@ li {
 
 
 /* =====REALIZE SECTION START===== */
-#realize{
+#realize {
     padding: 85px 0;
     background: #fbfaf8;
 }
 
-#realize .realize-heading{
+#realize .realize-heading {
     text-align: center;
 
 }
 
-#realize .realize-heading h2{
+#realize .realize-heading h2 {
     font-size: 32px;
     color: #555555;
     margin-bottom: 20px;
 }
 
-#realize .realize-heading p{
+#realize .realize-heading p {
     color: #8c8c8c;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
+
 /* =====REALIZE SECTION END===== */
 
 /* =====WP THEME LINK SECTION START===== */
-#theme{
-    background-image: linear-gradient(to right,#251d1a, #493125);
+#theme {
+    background-image: linear-gradient(to right, #251d1a, #493125);
     padding: 30px 0;
 }
 
-#theme .theme-content{
+#theme .theme-content {
     display: flex;
     justify-content: space-between;
 }
 
-#theme .theme-content h1{
+#theme .theme-content h1 {
     color: #fff;
     font: 30px;
 }
 
-#theme .theme-content h1 span{
+#theme .theme-content h1 span {
     color: #c7b299;
 }
 
-#theme .theme-content p{
+#theme .theme-content p {
     font-size: 18px;
     color: #615855;
     padding-top: 5px;
@@ -418,10 +419,138 @@ li {
     border-radius: 5px;
     box-shadow: 0px 3px 0px #736357;
     display: inline-block;
+    transition: .3s;
 }
 
 #theme .theme-content a:hover {
     background-color: #736357;
     box-shadow: 0px -3px 0px #998675;
 }
+
 /* =====WP THEME LINK SECTION END===== */
+
+/* LEATEST PROJECT SECTION START */
+#leatest {
+    padding: 50px 0;
+}
+
+#leatest .leatest-heading {
+    text-align: center;
+}
+
+#leatest .leatest-heading h2 {
+    font-size: 32px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+#leatest .leatest-heading p {
+    font-size: 20px;
+    color: #8c8c8c;
+    line-height: 28px;
+}
+
+
+#leatest .leatest-all-projets {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}
+
+#leatest .porject-info {
+    transition: 2s;
+}
+
+#leatest .porject-info:hover .project-dtls {
+    background-color: #362f2d;
+}
+
+#leatest .porject-info:hover .dtls-arrow {
+    background-color: #362f2d;
+}
+
+#leatest .porject-info:hover .project-dtls h3 {
+    color: #fff;
+}
+
+
+#leatest .porject-info:hover .project-dtls p {
+    color: #c7b299;
+}
+
+#leatest .project-img {
+    position: relative;
+}
+
+#leatest .project-overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(0);
+    transition: .4s;
+}
+
+#leatest .project-img:hover .project-overly {
+    transform: scale(1);
+}
+
+#leatest .project-overlay-icon a {
+    color: #fbfaf8;
+    font-size: 25px;
+}
+
+#leatest .project-overlay-icon a:hover {
+    color: #c7b299;
+}
+
+#leatest .project-overlay-icon .link {
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#leatest .project-overlay-icon .search {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#leatest .project-dtls {
+    padding: 20px 0 20px 10px;
+    background-color: #FBFAF8;
+    position: relative;
+}
+
+#leatest .project-dtls .dtls-arrow {
+    position: absolute;
+    width: 20px;
+    top: -10px;
+    left: 15px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: #FBFAF8;
+}
+
+#leatest .project-dtls h3 {
+    color: #c7b299;
+    font-size: 22px;
+}
+
+#leatest .project-dtls p {
+    color: #d1d1d1;
+    font-size: 17px;
+}
+
+
+
+/* LEATEST PROJECT SECTION END */
