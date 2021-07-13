@@ -17,6 +17,19 @@ $(function(){
         dots: true,
       });
 
+      // LIGHTBOX //
+
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+    });
+
+        // PRE LOADER //
+
+        $(window).on("load", function(){
+            $("#loading").delay(500) .fadeOut(2000);
+        });
+
       //=====bottom to top button=====//
 
       $(window).scroll(function(){
@@ -62,4 +75,11 @@ $(function(){
 
     // REALIZATION SLIDER //
     $('.img-area').hiSlide();
+
+
+    // LEATEST PROJETS //
+
+   var mixer = mixitup('.leatest-all-projets');
+
+
 });
