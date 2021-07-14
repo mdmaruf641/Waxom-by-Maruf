@@ -620,7 +620,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
-    background-attachment: fixed;
+
 }
 
 #client .all-logo {
@@ -754,13 +754,13 @@ li {
     color: #c7b299;
 }
 
-.sub-footer-dvdr{
+.sub-footer-dvdr {
     width: 90%;
     height: 2px;
     background-color: #252525;
 }
 
-.per-twitter span{
+.per-twitter span {
     color: #00bff3;
 }
 
@@ -786,25 +786,26 @@ li {
 
 /* =====FOOTER SECTION */
 
-#footer{
+#footer {
     background-color: #111111;
     padding: 10px 0;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-content p{
+.footer-content p {
     color: #555555;
     font-size: 20px;
 }
 
-.footer-content span, a{
+.footer-content span,
+a {
     color: #959595;
 }
 
-.footer-content a:hover{
+.footer-content a:hover {
     color: #c7b299
 }
